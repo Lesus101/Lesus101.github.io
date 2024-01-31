@@ -36,17 +36,27 @@ body {
 }
 
 .top {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
     margin-top: 10pc;
 }
 
-.top span {
+.top img {
     display: block;
     background-color: red;
     width: 409px;
     height: 427px;
     justify-self: center;
+}
+.top_left {
+width: 30%;
+}
+.top_left h1 {
+    font-size: 5pc;
+}
+.top_left p {
+    font-size: 2pc;
 }
 
 .middle span {
