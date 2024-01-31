@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #FFAFDA;
+}
+.outer_header{
+    width: 100%;
+    height: 63px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+.inner_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.inner_header a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Imbue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    position: relative;
+    top: 15px;
+}
+
+main h1 {
+    color: #000000;
+    text-align: center;
+    font-family: Imbue;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9.6px;
+    margin-top: 10pc;
+}
+.detail_box i {
+    display: block;
+    width: 409px;
+    height: 290px;
+    margin-left: 30px;
+    text-align: center;
+}
+.detail_box p{
+    color: #000;
+    text-align: center;
+    font-family: Imbue;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    margin-top: 15px;
+}
+#middle_01 {
+    color: #000;
+    font-family: Imbue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+#middle_02 {
+    color: #000;
+    font-family: Imbue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+#middle_03 {
+    color: #000;
+    font-family: Imbue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+.detail_row {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 7pc;
+}
+
+/* If anything goes wrong with responsive desgining, it will be this lign*/
+#last {
+    position: relative;
+    left: 120px;
+}
