@@ -62,7 +62,7 @@ main h1 {
     margin-top: 10px;
 }
 .detail_box p{
-    color: #FFF;
+    color: #000000;
     text-align: center;
     font-family: Imbue;
     font-size: 24px;
@@ -72,7 +72,7 @@ main h1 {
     letter-spacing: 2.4px;
 }
 .detail_box a {
-    color: #FFF;
+    color: #000000;
     text-align: center;
     font-family: Imbue;
     font-size: 24px;
