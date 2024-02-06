@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: #EFEDE7;
+    background: #f3ffad;
 }
 .outer_header{
     width: 100%;
@@ -35,7 +35,7 @@ body {
     padding: 10pc;
 }
 .text span h1 {
-    color: #00634D;
+    color: #110581;
     font-family: Imbue;
     font-size: 96px;
     font-style: normal;
@@ -57,7 +57,7 @@ body {
     background-color: red;
     width: 698px;
     height: 621px;
-    border: solid 15px #00634D;
+    border: solid 15px #110581;
 }
 .text {
     padding: 10px;
