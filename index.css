@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.screen {
+    position: absolute; /* Set position to absolute */
+    top: 50%; /* Adjust vertical position as needed */
+    left: 50%; /* Adjust horizontal position as needed */
+    transform: translate(-50%, -50%); /* Center the .screen div */
+    z-index: 50;
+    opacity: 10;
+}
+
+.screen h1 {
+    color: rgba(0, 0, 0, 0.9); /* Adjust the alpha channel (last value) for increased opacity */
+    text-align: center;
+    font-family: Imbue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+#Sanders {
+    color: rgba(0, 0, 0, 0.9); /* Adjust the alpha channel (last value) for increased opacity */
+    font-family: Copse;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9.6px;
+}
+.screen i {
+    display: block;
+    width: 64px;
+    height: 52px;
+    text-align: center;
+    margin: auto; /* Center the span horizontally */
+}
+.screen button {
+    width: 411px;
+    height: 94px;
+    border-radius: 28px;
+    border: 5px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.screen button:hover {
+    transition: 1.5s ease-in-out;
+    background-color: white;
+    opacity: 60%;
+}
