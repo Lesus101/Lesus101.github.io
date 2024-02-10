@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: #f3ffad;
+    background: #EFEDE7;
 }
 .outer_header{
     width: 100%;
@@ -35,7 +35,7 @@ body {
     padding: 10pc;
 }
 .text span h1 {
-    color: #110581;
+    color: #00634D;
     font-family: Imbue;
     font-size: 96px;
     font-style: normal;
@@ -57,7 +57,7 @@ body {
     background-color: red;
     width: 698px;
     height: 621px;
-    border: solid 15px #110581;
+    border: solid 15px #00634D;
 }
 .text {
     padding: 10px;
@@ -66,11 +66,20 @@ body {
 .img {
     padding: 10px;
 }
-
-
-
+.widescreen {
+    display: block;
+}
+.phoneScreen {
+    display: none;
+}
 
 @media only screen and (max-width: 431px) {
+    .wideScreen {
+        display: none;
+    }
+    .phoneScreen {
+        display: block;
+    }
     .inner_header a {
         text-decoration: none;
         color: #FFF;
