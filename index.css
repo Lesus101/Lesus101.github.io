@@ -78,3 +78,59 @@ video {
     background-color: white;
     opacity: 60%;
 }
+
+
+
+@media only screen and (max-width: 431px) {
+
+    .screen h1 {
+        color: rgba(0, 0, 0, 0.9); /* Adjust the alpha channel (last value) for increased opacity */
+        text-align: center;
+        font-family: Imbue;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 5px;
+    }
+    
+    #Sanders {
+        color: rgba(0, 0, 0, 0.9); /* Adjust the alpha channel (last value) for increased opacity */
+        font-family: Copse;
+        font-size: 76px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 9.6px;
+    }
+    .screen i {
+        display: block;
+        width: 64px;
+        height: 52px;
+        text-align: center;
+        margin: auto; /* Center the span horizontally */
+    }
+    .screen button {
+        width: 411px;
+        height: 94px;
+        border-radius: 28px;
+        border: 5px solid #000;
+        background-color: rgba(0, 0, 0, 0);
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .screen button:hover {
+        transition: 1.5s ease-in-out;
+        background-color: white;
+        opacity: 60%;
+    }
+
+}
+
